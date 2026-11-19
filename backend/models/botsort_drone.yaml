@@ -1,0 +1,14 @@
+tracker_type: botsort
+track_high_thresh: 0.12
+track_low_thresh: 0.05
+new_track_thresh: 0.22
+track_buffer: 300
+match_thresh: 0.80
+fuse_score: False
+
+# Global Motion Compensation for moving drone camera
+gmc_method: sparseOptFlow
+proximity_thresh: 0.6
+appearance_thresh: 0.8
+with_reid: False
+model: auto
